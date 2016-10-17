@@ -66,7 +66,8 @@ void draw()//
 
 void mousePressed() 
 {
-  fill(193, 187, 219);
+  noStroke();
+  fill(193, 187, 219,random((80)));
   rect(-mouseX, -mouseY, 100*(random(1.5)), 100*(random(1.5)));
   println(2);
 }
